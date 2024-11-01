@@ -1,0 +1,15 @@
+{
+  "name": "assignment-2---miquela-gonzales-100919632",
+  "version": "1.0.0",
+  "description": "This is Miquela Gonzales' Assignment 2 Portfolio Site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Miquela Gonzales",
+  "license": "ISC",
+  "dependencies": {
+    "connect": "^3.7.0",
+    "express": "^4.21.1"
+  }
+}
