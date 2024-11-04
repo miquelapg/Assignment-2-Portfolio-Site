@@ -5,7 +5,21 @@
   <main>
     <div class="jumbotron jumbotron-fluid">
       <div class="container">
-        <h1 class="display-4">Welcome to the <%= title %> page</h1>
+        <% if(title=="Home") { %>
+          <% include Partials/index.ejs%>
+          <% } %>
+
+          <% if(title=="About") { %>
+            <% include Partials/aboutme.ejs%>
+            <% } %>
+
+            <% if(title=="Projects") { %>
+              <% include Partials/projects.ejs%>
+              <% } %>
+              
+              <% if(title=="Contact") { %>
+                <% include Partials/contact.ejs%>
+                <% } %>
       </div>
     </div>
   </main>

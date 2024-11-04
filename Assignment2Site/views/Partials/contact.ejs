@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset='utf-8'>
+    <title>Contact</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='only screen and (min-width:960px)' href='/Content/laptop.css'>
+    <link href="/Content/phone.css" rel="stylesheet" type="text/css" media="only screen and (max-width:480px)">
+    <link href="/Content/tablet.css" rel="stylesheet" type="text/css"
+        media="only screen and (min-width: 481px) and (max-width: 960px)">
+</head>
+
+<body id="contact">
+    <div id="wrapper">
+        <!--Contact-->
+        <section>
+            <div class="contactBox">
+                <h1>Contact </h1>
+            </div>
+
+            <!--Form-->
+            <form action="mailto:miquela.gonzales@ontariotechu.net" ?subject="Contact" Form method="post"
+                enctype="text/plain" name="contactForm">
+                <!--Class containing First and Last Name-->
+                <div class="nameBox">
+
+                    <p>First Name
+                        <input type="text" required name="firstName" size="30" placeholder="First Name">
+
+                        Last Name
+                        <input type="text" required name="lastName" size="30" placeholder="Last Name">
+                    </p>
+                </div>
+                <!--End-->
+
+                <!--Class containing Phone Number and Email-->
+                <div class="phoneEmail">
+                    <p>Phone Number
+                        <input type="tel" required name="phoneNumber" size="30" placeholder="Phone Number">
+
+                        Email
+                        <label for="email"></label>
+                        <input name="email" type="email" size="30" placeholder="Email" required>
+                    </p>
+                </div>
+
+                <p> <label for="message">Message</label><br></p>
+                <textarea name="comments" cols="60" rows="9" placeholder="Enter a Message"></textarea></p>
+                <!--End-->
+
+                <p></p> <!--Leaving space between Message and Buttons-->
+
+                <!--Class containing Submit and Reset Buttons-->
+                <div class="contactButtons">
+                    <input type="reset" value="Reset">
+                    <input type="submit" value="Submit">
+                </div>
+                <!--End-->
+            </form> 
+            <!--Form End-->
+
+        </section>
+        
+        <div class="clear"></div> <!--Remove Floats-->
+    </div>
+</body>
+</html>

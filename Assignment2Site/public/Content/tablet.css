@@ -1,0 +1,223 @@
+@charset "UTF-8";
+@media only screen and (min-width : 481px) and (max-width: 960px) {
+
+/*Tablet Viewport*/
+    body{
+    background: linear-gradient(45deg, black 0%, aqua 100%);
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+#wrapper{
+    height:auto;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+/*Header*/
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    background-color: black;
+}
+
+.navBar {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: inline-block;
+    background-color: black;
+    padding: 0px 10px;
+}
+
+.navBar h1 {
+    margin-left: 5px;
+    justify-content: space-between;
+    font-size:xx-large;
+}
+
+.navBar ul {
+    display: flex;
+    float: right;
+    list-style: none;
+    padding: 0;
+    top: 50%
+}
+
+.navBar li {
+    float: right;
+    top: 50%
+}
+
+.navButton {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 5px 15px;
+    border: none;
+    font-size:x-large;
+    text-decoration: none;
+}
+
+.navButton:hover {
+    background-color: silver;
+}
+/*End of Header*/
+
+/*Homepage section*/
+.homepageContainer {
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+.welcome{
+    position: absolute;
+    font-size: x-large;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#homepage img{
+    width: 100%;
+    object-fit: cover;
+   
+}
+/*Homepage Boxes*/
+#box {
+    background-color: black;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     padding: 10px;
+ }
+ 
+ .aboutContainer,
+ .projectsContainer,
+ .contactContainer {
+     background-color: white;
+     padding: 20px;
+     border: 5px;
+     width: 150px;
+     height: 150px;
+     text-align: center;
+     border-radius:50px;
+ }
+
+ .aboutContainer a,
+ .projectsContainer a,
+ .contactContainer a {
+     text-decoration: none;
+     color: black;
+ }
+ 
+ .aboutContainer:hover,
+ .projectsContainer:hover,
+ .contactContainer:hover {
+     background-color: silver;
+     box-shadow: 10px 10px 5px silver;
+ }
+ /*End of Homepage*/
+
+ /*About Me Page*/
+ .aboutTitle h1 {
+    padding-left: 20px;
+ }
+ .aboutLeft h2 {
+    margin-left: 20px;
+ }
+.aboutLeft img{
+    border-radius: 100px;
+    padding: 20px;
+ 
+}
+.aboutRight h2 {
+    margin-left: 20px;
+ }
+.aboutRight{
+    align-items: center;
+    justify-content: center;
+}
+.aboutRight video{
+    align-items: center;
+    width: 100%;
+}
+
+/*End of About Me*/
+
+/*Projects Page*/
+#projects .projectItems{
+    color: white;
+}
+#projects .projectContainer h2{
+    text-align: center;
+}
+
+#projects .projectContainer h1{
+    margin-left: 15px;
+}
+#projects .projectContainer h3{
+    margin-left: 25px;
+}
+#projects img{
+    align-items: center;
+    margin: auto;
+    display: block;
+    width: 65%;
+}
+#projects #pythonImg {
+    align-items: center;
+    margin: auto;
+    display: block;
+    width: 30%;
+    margin-bottom: 10px;
+}
+/*Contacts Page*/
+#contact .contactBox {
+    margin-left: 25px;
+}
+
+#contact form {
+    margin-left: 50px;
+    padding: 0 20px
+}
+
+.nameBox input, .phoneEmail input, textarea{
+    width: 100%;
+}
+.contactButtons{
+    padding-bottom: 20px;
+}
+/*End of Contact Page*/
+
+ /*Footer*/
+ .footerContainer {
+     margin-bottom: auto;
+     text-align: center;
+     background-color: silver;
+     padding: 10px;
+     color: black;
+ }
+
+ #footer {
+     background-color: silver;
+     color: black;
+     height: auto;
+     align-items: center;
+     padding-top: 20px;
+    
+ }
+ /*End of Footer*/
+
+ /*Clears Floats*/
+ .clear {
+     clear: both;
+ }
+}

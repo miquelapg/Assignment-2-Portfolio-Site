@@ -1,0 +1,212 @@
+@charset "UTF-8";
+/*Laptop/Desktop Viewport*/
+body {
+    color: white;
+    background: -moz-linear-gradient(top, black 0%, blue 100%);
+    background: -webkit-linear-gradient(top, black 0%, blue 100%);
+    background: -o-linear-gradient(top, black 0%, blue 100%);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+#wrapper {
+    width: 960px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*Header Container*/
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    background-color: black;
+}
+
+.navBar {
+    width: 100%;
+    justify-content: space-between;
+    display: inline-block;
+    background-color: black;
+    padding: 0px 10px;
+}
+
+.navBar h1 {
+    margin-left: 5px;
+    justify-content: space-between;
+    font-size: xx-large;
+}
+
+.navBar ul {
+    display: flex;
+    float: right;
+    list-style: none;
+    padding: 0;
+}
+
+.navButton {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 5px 15px;
+    border: none;
+    font-size: xx-large;
+    text-decoration: none;
+}
+
+.navButton:hover {
+    background-color: silver;
+}
+/*End of Header*/
+
+/*Homepage section*/
+.homepageContainer {
+    position: relative;
+    text-align: center;
+}
+.homepageContainer img{
+  width: 100%;
+}
+.welcome{
+    position: absolute;
+    font-size: x-large;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#homepage img{
+    width: 100%;
+    object-fit: cover;
+}
+
+/*Homepage Boxes*/
+#box {
+   background-color: black;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.aboutContainer,
+.projectsContainer,
+.contactContainer {
+    background-color: white;
+    padding: 20px;
+    width: 150px;
+    height: 100px;
+    text-align: center;
+    border-radius:35px;
+    
+}
+
+.aboutContainer a,
+.projectsContainer a,
+.contactContainer a {
+    text-decoration: none;
+    color: black;
+}
+
+.aboutContainer:hover,
+.projectsContainer:hover,
+.contactContainer:hover {
+    background-color: silver;
+    box-shadow: 4px 4px 5px silver;
+   
+}
+/*End of Homepage*/
+
+/*About me Page*/
+
+.aboutLeft{
+    float: left;
+    width: 50%; 
+}
+.aboutLeft img{
+    margin-left: 70px;
+    border-radius: 100px;
+   
+}
+.aboutRight{
+    float: right;
+    width: 50%;
+}
+
+/*End of About Me*/
+
+/*Projects Page*/
+
+#projects .projectContainer h2{
+    text-align: center;
+}
+#projects .projectContainer h4 {
+    margin-left: 40px;
+}
+#projects .projectContainer h1{
+    margin-left: 15px;
+}
+#projects .left{
+    width: 50%;
+    float: left;
+    margin-bottom: 10px;
+}
+#projects .right{
+    width: 50%;
+    float: right;
+    margin-bottom: 10px;
+}
+#projects img{
+    align-items: center;
+    margin: auto;
+    display: block;
+    width:100%;
+}
+#projects #pythonImg {
+    align-items: center;
+    margin: auto;
+    display: block;
+    width: 80%;
+}
+/*End of Projects Page*/
+
+/*Contact Page*/
+
+#contact .contactBox {
+    margin-left: 25px;
+}
+
+#contact form {
+    margin-left: 170px;
+    
+}
+.phoneEmail, .contactButtons, .nameBox{
+    align-items: center;
+}
+.contactButtons{
+    margin-bottom: 20px;
+}
+/*End of Contact Page*/
+
+/*Footer*/
+.footerContainer {
+    display: block;
+    align-items: center;
+    text-align: center;
+    background-color: silver;
+}
+
+#footer {
+    display: block;
+    background-color: silver;
+    color: black;
+    height: 80px;
+    align-items: center;
+}
+/*End of Footer*/
+
+ /*Clears Floats*/
+ .clear {
+    clear: both;
+}

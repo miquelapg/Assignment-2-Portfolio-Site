@@ -1,0 +1,206 @@
+@media only screen and (max-width : 480px) {
+/*Phone View*/
+    body {
+        color: white;
+        background: linear-gradient(45deg, black 0%, aqua 100%); /*angle linear gradient*/
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    #wrapper {
+        width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /*Header */
+    .navBar ul {
+        text-decoration: none;
+        padding-left: 0;
+        list-style: none;
+        text-align: center;
+       
+    }
+    .navBar li a {
+        text-decoration: none;
+    }
+
+.navBar{
+    font-size: large;
+    flex-direction: column;
+    background-color: black;
+    display: flex;
+}
+.navButton{
+    text-decoration: none;
+    font-size:large;
+    margin: auto;
+    display: block;
+    background-color: black;
+    color: white;
+    border: none;
+    justify-content: space-between;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.navButton:hover {
+    background-color: silver;
+}
+/*End of Header*/
+
+/*Homepage Boxes*/
+#box{
+    flex-direction: column;
+    justify-items:center ;
+}
+
+.homepageContainer {
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+.welcome{
+    position: absolute;
+    font-size: small;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#homepage img{
+    width: 100%;
+    height: 20%;
+    object-fit: cover;
+    
+}
+
+#box {
+   background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.aboutContainer,
+.projectsContainer,
+.contactContainer {
+    background-color: white;
+    padding: 20px;
+    border: 100px;
+    width: 60%;
+    height: auto;
+    text-align: center;
+    border-radius:25px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    
+}
+.aboutContainer h3
+.projectsContainer h3 ,
+.contactContainer h3  {
+   text-align: center;
+}
+
+.aboutContainer a,
+.projectsContainer a,
+.contactContainer a {
+    text-decoration: none;
+    color: black;
+}
+
+.aboutContainer:hover,
+.projectsContainer:hover,
+.contactContainer:hover {
+    background-color: silver;
+    box-shadow: 4px 4px 5px silver;
+   
+}
+/*End of Homepage Boxes*/
+
+/*About me Page*/
+
+.aboutLeft img{
+    display: flex;
+    border-radius: 100px;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.aboutRight video{
+    height: auto;
+    width: 100%
+}
+/*End of About Me*/
+
+/*Projects Page*/
+#projects .projectContainer h2{
+    text-align: center;
+}
+
+#projects .projectContainer h1{
+    margin-left: 15px;
+}
+#projects .projectContainer h3{
+    margin-left: 25px;
+}
+#projects img{
+    align-items: center;
+    display: block;
+    width: 100%;
+}
+#projects #pythonImg {
+    align-items: center;
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+/*End of Projects Page*/
+
+/*Contact Page*/
+
+#contact .contactBox {
+    margin-left: 25px;
+    display: block;
+}
+
+#contact form {
+    display: block;
+    margin-left: 15px;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px
+}
+.nameBox input, .phoneEmail input, textarea{
+    width: 100%;
+}
+
+.contactButtons {
+        justify-content: space-between;
+        margin-left: 25px;
+        padding-bottom: 20px;
+}
+/*End of Contact Page*/
+
+/*Footer*/
+.footerContainer {
+    align-items: center;
+    text-align: center;
+    background-color: silver;
+    color: black;
+}
+    #footer {
+        background-color: silver;
+        color: black;
+        align-items: center;
+        height: auto;
+        padding: 10px;
+    }
+    
+    /*Clears Floats*/
+ .clear {
+    clear: both;
+}
+}
