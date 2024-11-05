@@ -12,41 +12,6 @@
         margin-left: auto;
         margin-right: auto;
     }
-    /*Header */
-    .navBar ul {
-        text-decoration: none;
-        padding-left: 0;
-        list-style: none;
-        text-align: center;
-       
-    }
-    .navBar li a {
-        text-decoration: none;
-    }
-
-.navBar{
-    font-size: large;
-    flex-direction: column;
-    background-color: black;
-    display: flex;
-}
-.navButton{
-    text-decoration: none;
-    font-size:large;
-    margin: auto;
-    display: block;
-    background-color: black;
-    color: white;
-    border: none;
-    justify-content: space-between;
-    cursor: pointer;
-    text-decoration: none;
-}
-
-.navButton:hover {
-    background-color: silver;
-}
-/*End of Header*/
 
 /*Homepage Boxes*/
 #box{

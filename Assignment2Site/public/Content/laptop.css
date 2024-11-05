@@ -16,50 +16,6 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
-/*Header Container*/
-.headerContainer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px 10px;
-    background-color: black;
-}
-
-.navBar {
-    width: 100%;
-    justify-content: space-between;
-    display: inline-block;
-    background-color: black;
-    padding: 0px 10px;
-}
-
-.navBar h1 {
-    margin-left: 5px;
-    justify-content: space-between;
-    font-size: xx-large;
-}
-
-.navBar ul {
-    display: flex;
-    float: right;
-    list-style: none;
-    padding: 0;
-}
-
-.navButton {
-    background-color: black;
-    color: white;
-    cursor: pointer;
-    padding: 5px 15px;
-    border: none;
-    font-size: xx-large;
-    text-decoration: none;
-}
-
-.navButton:hover {
-    background-color: silver;
-}
-/*End of Header*/
 
 /*Homepage section*/
 .homepageContainer {
@@ -88,6 +44,7 @@ body {
     display: flex;
     justify-content: space-around;
     padding: 20px;
+    bottom: 70%;
 }
 
 .aboutContainer,
@@ -95,8 +52,8 @@ body {
 .contactContainer {
     background-color: white;
     padding: 20px;
-    width: 150px;
-    height: 100px;
+    width: 170px;
+    height: 150px;
     text-align: center;
     border-radius:35px;
     
@@ -188,7 +145,6 @@ body {
     margin-bottom: 20px;
 }
 /*End of Contact Page*/
-
 
  /*Clears Floats*/
  .clear {
