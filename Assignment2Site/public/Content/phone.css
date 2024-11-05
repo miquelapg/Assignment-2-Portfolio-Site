@@ -184,21 +184,6 @@
 }
 /*End of Contact Page*/
 
-/*Footer*/
-.footerContainer {
-    align-items: center;
-    text-align: center;
-    background-color: silver;
-    color: black;
-}
-    #footer {
-        background-color: silver;
-        color: black;
-        align-items: center;
-        height: auto;
-        padding: 10px;
-    }
-    
     /*Clears Floats*/
  .clear {
     clear: both;

@@ -197,25 +197,6 @@
 }
 /*End of Contact Page*/
 
- /*Footer*/
- .footerContainer {
-     margin-bottom: auto;
-     text-align: center;
-     background-color: silver;
-     padding: 10px;
-     color: black;
- }
-
- #footer {
-     background-color: silver;
-     color: black;
-     height: auto;
-     align-items: center;
-     padding-top: 20px;
-    
- }
- /*End of Footer*/
-
  /*Clears Floats*/
  .clear {
      clear: both;

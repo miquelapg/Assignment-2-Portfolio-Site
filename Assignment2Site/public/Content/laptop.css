@@ -189,22 +189,6 @@ body {
 }
 /*End of Contact Page*/
 
-/*Footer*/
-.footerContainer {
-    display: block;
-    align-items: center;
-    text-align: center;
-    background-color: silver;
-}
-
-#footer {
-    display: block;
-    background-color: silver;
-    color: black;
-    height: 80px;
-    align-items: center;
-}
-/*End of Footer*/
 
  /*Clears Floats*/
  .clear {
